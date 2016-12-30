@@ -15,6 +15,9 @@
 		09FC724D1E16B8B40018E8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FC724B1E16B8B40018E8EC /* LaunchScreen.storyboard */; };
 		09FC72581E16B8B40018E8EC /* UdemyGrafityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FC72571E16B8B40018E8EC /* UdemyGrafityTests.swift */; };
 		09FC72631E16B8B40018E8EC /* UdemyGrafityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FC72621E16B8B40018E8EC /* UdemyGrafityUITests.swift */; };
+		09FC72721E16CF790018E8EC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FC72711E16CF790018E8EC /* MapKit.framework */; };
+		09FC72741E16F02B0018E8EC /* GrafityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FC72731E16F02B0018E8EC /* GrafityDetailsViewController.swift */; };
+		09FC72761E16FC240018E8EC /* Graffiti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FC72751E16FC240018E8EC /* Graffiti.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		09FC725E1E16B8B40018E8EC /* UdemyGrafityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdemyGrafityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FC72621E16B8B40018E8EC /* UdemyGrafityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyGrafityUITests.swift; sourceTree = "<group>"; };
 		09FC72641E16B8B40018E8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FC72711E16CF790018E8EC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		09FC72731E16F02B0018E8EC /* GrafityDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrafityDetailsViewController.swift; sourceTree = "<group>"; };
+		09FC72751E16FC240018E8EC /* Graffiti.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graffiti.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09FC72721E16CF790018E8EC /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +90,7 @@
 				09FC72561E16B8B40018E8EC /* UdemyGrafityTests */,
 				09FC72611E16B8B40018E8EC /* UdemyGrafityUITests */,
 				09FC723D1E16B8B40018E8EC /* Products */,
+				09FC72701E16CF790018E8EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +114,8 @@
 				09FC724B1E16B8B40018E8EC /* LaunchScreen.storyboard */,
 				09FC724E1E16B8B40018E8EC /* Info.plist */,
 				09FC72461E16B8B40018E8EC /* UdemyGrafity.xcdatamodeld */,
+				09FC72731E16F02B0018E8EC /* GrafityDetailsViewController.swift */,
+				09FC72751E16FC240018E8EC /* Graffiti.swift */,
 			);
 			path = UdemyGrafity;
 			sourceTree = "<group>";
@@ -126,6 +136,14 @@
 				09FC72641E16B8B40018E8EC /* Info.plist */,
 			);
 			path = UdemyGrafityUITests;
+			sourceTree = "<group>";
+		};
+		09FC72701E16CF790018E8EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09FC72711E16CF790018E8EC /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09FC72761E16FC240018E8EC /* Graffiti.swift in Sources */,
+				09FC72741E16F02B0018E8EC /* GrafityDetailsViewController.swift in Sources */,
 				09FC72481E16B8B40018E8EC /* UdemyGrafity.xcdatamodeld in Sources */,
 				09FC72421E16B8B40018E8EC /* ViewController.swift in Sources */,
 				09FC72401E16B8B40018E8EC /* AppDelegate.swift in Sources */,
